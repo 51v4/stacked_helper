@@ -1,0 +1,27 @@
+name: stacked_helper
+description: "A helper package for the Stacked framework in Flutter, providing utilities and extensions to enhance development efficiency."
+version: 0.0.1
+homepage: https://github.com/51v4/stacked_helper
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ^3.6.2
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
