@@ -1,4 +1,9 @@
 include: package:flutter_lints/flutter.yaml
 
-# Additional information about this file can be found at
-# https://dart.dev/guides/language/analysis-options
+analyzer:
+  exclude: [lib/app/app.**.dart, lib/ui/common/**.gen.dart]
+
+linter:
+  rules:
+    - prefer_relative_imports
+    - require_trailing_commas
